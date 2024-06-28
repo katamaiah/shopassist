@@ -1,7 +1,7 @@
 import streamlit as st
 from langchain.llms.openai import OpenAI
 
-st.title('🦜🔗 Katam's first LLM App')
+st.title('🦜🔗 Katam first LLM App')
 
 openai_api_key = st.sidebar.text_input('OpenAI API Key', type='password')
 
